@@ -1,7 +1,8 @@
-24-hour: 24 horas
+24-hour: '24 horas'
 AI: IA
 AM/PM: AM/PM
 'API key': 'Chave da API'
+Active: Ativo
 'Activities excluded from peak power outputs': 'Atividades excluídas dos picos de potência'
 'Activities to skip during import': 'Atividades a ignorar durante a importação'
 'Activities will appear here once they are imported.': 'As atividades aparecerão aqui assim que forem importadas.'
@@ -35,6 +36,7 @@ Admin: Admin
 'Also exposes the workout assistant in the web interface. Requires the AI integration above to be enabled. Use caution when enabling this if your app is publicly accessible.': 'Também expõe o assistente de treino na interface web. Requer que a integração de IA acima esteja ativada. Tenha cuidado ao ativar isso se o seu aplicativo for acessível publicamente.'
 'App URL': 'URL do aplicativo'
 'App subtitle': 'Subtítulo do aplicativo'
+'App update available notification': 'Notificação de atualização do aplicativo disponível'
 Appearance: Aparência
 'Are you sure you want to delete the {component} component?': 'Tem certeza de que deseja excluir o componente {component}?'
 'Are you sure you want to delete {name}?': 'Tem certeza de que deseja excluir {name}?'
@@ -106,6 +108,7 @@ Filename: 'Nome do arquivo'
 'First name': Nome
 'Fixed value': 'Valor fixo'
 From: De
+'Gear maintenance notification': 'Notificação de manutenção de equipamento'
 'Gear management': 'Gerenciamento de equipamento'
 'Gear will appear here once you add them.': 'Os equipamentos aparecerão aqui assim que você os adicionar.'
 Gender: Gênero
@@ -119,15 +122,17 @@ General: Geral
 'History of running FTP. Needed to calculate activity stress level.': 'Histórico de FTP de corrida. Necessário para calcular o nível de estresse da atividade.'
 'History of weight (in kg or pounds, depending on the appearance unit system). Needed to calculate relative w/kg.': 'Histórico de peso (em kg ou libras, dependendo do sistema de unidades de aparência). Necessário para calcular w/kg relativo.'
 'How often (in minutes, between 1 and 60) queued webhook events are processed.': 'Com que frequência (em minutos, entre 1 e 60) os eventos de webhook na fila são processados.'
-"If you're not sure about your zones, leave these unchanged, the defaults are sensible. In relative mode the numbers are percentages of your max heart rate; in absolute mode they are actual bpm.": "Se você não tem certeza sobre suas zonas, deixe-as inalteradas, os padrões são sensatos. No modo relativo os números são porcentagens de sua frequência cardíaca máxima; no modo absoluto eles são bpm reais."
+"If you're not sure about your zones, leave these unchanged, the defaults are sensible. In relative mode the numbers are percentages of your max heart rate; in absolute mode they are actual bpm.": 'Se você não tem certeza sobre suas zonas, deixe-as inalteradas, os padrões são sensatos. No modo relativo os números são porcentagens de sua frequência cardíaca máxima; no modo absoluto eles são bpm reais.'
 'Ignore retired gear': 'Ignorar equipamento aposentado'
 Image: Imagem
 Images: Imagens
 Import: Importar
+'Import data & build app': 'Importar dados e compilar o aplicativo'
 'Import segment details': 'Importar detalhes do segmento'
 'Import segment details so segment maps can be displayed. This needs an extra Strava API call per segment and increases import time significantly.': 'Importar detalhes de segmento para que mapas de segmento possam ser exibidos. Isso requer uma chamada de API extra do Strava por segmento e aumenta significativamente o tempo de importação.'
 'Imported files will appear here once you upload them.': 'Os arquivos importados aparecerão aqui assim que você os enviar.'
 'Imported from Strava': 'Importado do Strava'
+'Imports new Strava activities and rebuilds the app.': 'Importa novas atividades do Strava e recompila o aplicativo.'
 'Include retired gear': 'Incluir equipamento aposentado'
 Info: Informações
 Integrations: Integrações
@@ -197,13 +202,14 @@ Remove: Remover
 'Remove task': 'Remover tarefa'
 'Remove widget': 'Remover widget'
 Removing...: Removendo...
-"Reorder widgets and set each widget's width.": "Reordene os widgets e defina a largura de cada widget."
+"Reorder widgets and set each widget's width.": 'Reordene os widgets e defina a largura de cada widget.'
 'Reset dashboard to default': 'Restaurar o painel para o padrão'
 'Reset to default': 'Restaurar para o padrão'
 Resetting...: Restaurando...
 'Resting heart rate (bpm)': 'Frequência cardíaca de repouso (bpm)'
 'Resting heart rate formula': 'Fórmula da frequência cardíaca de repouso'
 'Restrict to date range': 'Restringir a intervalo de datas'
+Retired: 'Aposentado'
 'Return to app': 'Retornar ao aplicativo'
 Ride: Pedal
 Save: Salvar
@@ -215,6 +221,8 @@ Saving...: Salvando...
 'Select a component…': 'Selecione um componente…'
 'Select at least one sport type.': 'Selecione pelo menos um tipo de esporte.'
 'Select the serviced gear…': 'Selecione o equipamento revisado…'
+'Sends a notification when a new app version is available. Requires a configured notification service.': 'Envia uma notificação quando uma nova versão do aplicativo está disponível. Requer um serviço de notificação configurado.'
+'Sends a notification when gear maintenance is due. Requires a configured notification service.': 'Envia uma notificação quando a manutenção do equipamento está vencida. Requer um serviço de notificação configurado.'
 Settings: Configurações
 'Short date format': 'Formato de data curto'
 'Shortcuts a user can pick in the workout assistant. Do not prefix the command with a slash.': 'Atalhos que um usuário pode escolher no assistente de treino. Não coloque uma barra (/) no início do comando.'
@@ -227,7 +235,7 @@ Settings: Configurações
 'Sign in': Entrar
 'Sign in to the admin panel': 'Entrar no painel de administração'
 'Sign out': Sair
-'Signing in...': 'Entrando...'
+'Signing in...': Entrando...
 'Skip activities recorded before': 'Ignorar atividades registradas antes de'
 Skipped: Ignorado
 Source: Fonte
@@ -253,11 +261,11 @@ Tasks: Tarefas
 'The formula used to calculate your resting heart rate. The default is an age-based estimate.': 'A fórmula usada para calcular sua frequência cardíaca de repouso. O padrão é uma estimativa baseada na idade.'
 'The last zone has no upper bound.': 'A última zona não tem limite superior.'
 'The locale used to render the app.': 'A localidade usada para renderizar o aplicativo.'
-"The name is derived from the device recorded on your activities and can't be edited.": "O nome é derivado do dispositivo registrado em suas atividades e não pode ser editado."
+"The name is derived from the device recorded on your activities and can't be edited.": 'O nome é derivado do dispositivo registrado em suas atividades e não pode ser editado.'
 'The unit system used to render distances, elevations, temperatures, etc.': 'O sistema de unidades usado para renderizar distâncias, elevações, temperaturas, etc.'
 'This action cannot be undone.': 'Esta ação não pode ser desfeita.'
 'This component is fitted to multiple gears, pick the one you serviced.': 'Este componente está instalado em vários equipamentos, escolha aquele em que você fez a manutenção.'
-"This value is imported from Strava and can't be edited here.": "Este valor é importado do Strava e não pode ser editado aqui."
+"This value is imported from Strava and can't be edited here.": 'Este valor é importado do Strava e não pode ser editado aqui.'
 'This widget still needs to be configured.': 'Este widget ainda precisa ser configurado.'
 'This will discard your current dashboard layout and restore the default widgets.': 'Isso descartará o layout atual do seu painel e restaurará os widgets padrão.'
 'Time format': 'Formato de hora'
@@ -283,11 +291,11 @@ Version: Versão
 Webhooks: Webhooks
 'What is my FTP?': 'Qual é o meu FTP?'
 'When disabled, gear marked as retired is left out of the chart.': 'Quando desativado, o equipamento marcado como aposentado é deixado fora do gráfico.'
-"When enabled, gear marked as retired is skipped. Its components won't increase usage and no maintenance is tracked for them.": "Quando ativado, o equipamento marcado como aposentado é ignorado. Seus componentes não aumentarão o uso e nenhuma manutenção será registrada para eles."
+"When enabled, gear marked as retired is skipped. Its components won't increase usage and no maintenance is tracked for them.": 'Quando ativado, o equipamento marcado como aposentado é ignorado. Seus componentes não aumentarão o uso e nenhuma manutenção será registrada para eles.'
 'You can add it back to your dashboard again later.': 'Você pode adicioná-lo de volta ao seu painel mais tarde.'
 'You can also copy files straight into the {watchFolder} folder.': 'Você também pode copiar arquivos diretamente para a pasta {watchFolder}.'
 'You can select up to {max} images': 'Você pode selecionar até {max} imagens'
-"You're currently importing from the Strava API. Set {importMode} to upload activity files directly, without depending on Strava's API": "Atualmente você está importando da API do Strava. Configure {importMode} para enviar arquivos de atividade diretamente, sem depender da API do Strava."
+"You're currently importing from the Strava API. Set {importMode} to upload activity files directly, without depending on Strava's API": 'Atualmente você está importando da API do Strava. Configure {importMode} para enviar arquivos de atividade diretamente, sem depender da API do Strava.'
 'Your birthday. Needed to calculate heart rate zones.': 'Sua data de nascimento. Necessária para calcular as zonas de frequência cardíaca.'
 'Your changes have been saved.': 'Suas alterações foram salvas.'
 'Your gender. Used to determine activity training load.': 'Seu gênero. Usado para determinar a carga de treinamento da atividade.'
