@@ -136,6 +136,7 @@ Import: Import
 'Include retired gear': 'Include retired gear'
 Info: Info
 Integrations: Integrations
+'Intro text': 'Intro text'
 'Invalid CSRF token.': 'Invalid CSRF token.'
 Label: Label
 'Last name': 'Last name'

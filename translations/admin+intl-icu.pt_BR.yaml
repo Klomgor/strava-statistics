@@ -136,6 +136,7 @@ Import: Importar
 'Include retired gear': 'Incluir equipamento aposentado'
 Info: Informações
 Integrations: Integrações
+'Intro text': 'Texto de introdução'
 'Invalid CSRF token.': 'Token CSRF inválido.'
 Label: Rótulo
 'Last name': Sobrenome
@@ -209,7 +210,7 @@ Resetting...: Restaurando...
 'Resting heart rate (bpm)': 'Frequência cardíaca de repouso (bpm)'
 'Resting heart rate formula': 'Fórmula da frequência cardíaca de repouso'
 'Restrict to date range': 'Restringir a intervalo de datas'
-Retired: 'Aposentado'
+Retired: Aposentado
 'Return to app': 'Retornar ao aplicativo'
 Ride: Pedal
 Save: Salvar
